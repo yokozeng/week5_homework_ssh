@@ -96,6 +96,10 @@
   }
 }
 .modal{
+  .modal-header h5{
+    font-size: 24px;
+    font-weight: bold;
+  }
   .modal-sub-title{
     font-size: 20px;
     font-weight: bold;
@@ -105,10 +109,36 @@
     font-size: 14px;
     line-height: 24px;
   }
+  .yk-input-border{
+    height: 51px;
+    border: 1px solid #212529;
+    border-radius: 2px;
+  }
   .br{
     border-bottom: 1px solid $gray-300;
   }
   .icons-warning{
     color:#DC3545;
+    vertical-align: middle;
   }
+  .bold{
+    font-weight: bold;
+  }
+  .yk-botton-block{
+    display: block;
+    line-height: 51px;
+    padding: 0px;
+    border-radius: 2px;
+    border: 1px solid #CED4DA;
+  }
+  .yk-form-select{
+    height: 51px;
+    border: 1px solid #CED4DA;
+    border-radius: 2px;
+  }
+  // input[type=button]:hover
+  // {
+  //   color: #fff;
+  //   background-color: #198754
+  // }
 }

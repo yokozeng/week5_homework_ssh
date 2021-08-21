@@ -3,7 +3,7 @@
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-@import "_variable";
 @import "_base";
-@import './layout/index.scss';
+@import "_utility";
+@import './layout/admin.scss';
 
